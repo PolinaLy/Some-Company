@@ -7,7 +7,7 @@ import { Provider } from "react-redux"
 import { store } from './app/model/store.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/Some-Company/'>
     <StrictMode>
       <Provider store={store}>
           <App />
